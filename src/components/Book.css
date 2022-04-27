@@ -1,0 +1,18 @@
+.book {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    .book {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .book {
+        width: 30vw;
+    }
+}

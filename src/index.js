@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MyComponent from './MyComponent';
+import BookList from './components/BookList';
+
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<MyComponent />);
+root.render(<BookList />);
 
