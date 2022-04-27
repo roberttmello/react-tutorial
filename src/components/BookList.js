@@ -1,19 +1,16 @@
 import Book from "./Book";
 import "./BookList.css";
 
+import books from "../books";
+
 const BookList = () => {
   return (
     <section className="booklist">
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+     {
+       books.map((book)=>(
+         <Book key={book.id} {...book} />
+       ))
+     }
     </section>
   );
 };

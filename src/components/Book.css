@@ -2,7 +2,30 @@
     background: #fff;
     border-radius: 1rem;
     padding: 1rem 2rem;
-    width: 100vw;
+    width: 90vw;
+}
+
+.book img {
+    width: 100%;
+}
+
+.book h2 {
+    margin-top: 0.75rem;
+    color: #222;
+    font-size: 1.5rem;
+}
+
+.book h4 {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    color: #666;
+}
+
+.book span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {

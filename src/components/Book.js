@@ -1,17 +1,12 @@
-import Image from "./Image";
-import Title from "./Title";
-import Author from "./Author";
-import Price from "./Price";
-
 import "./Book.css";
 
-const Book = () => {
+const Book = ({imageURL, title, author, price}) => {
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
-      <Price />
+      <img src={imageURL} alt={title} />
+      <h2>{title}</h2>
+      <h4>{author}</h4>
+      <span>{price}</span>
     </article>
   );
 };
